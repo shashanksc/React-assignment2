@@ -1,0 +1,25 @@
+
+.container {
+    width: 70px;
+    height: 70px;
+    color: azure;
+    background-color: #5B0888;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: inline-flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.container:hover{
+    cursor: default;
+    background-color: #6c0aa1;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
